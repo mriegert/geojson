@@ -1,46 +1,15 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [102.0, 0.5]
-      },
-      "properties": {
-        "prop0": "value0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
-        ]
-      },
-      "properties": {
-        "prop1": 0.0,
-        "prop0": "value0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0],
-            [100.0, 0.0]
-          ]
-        ]
-      },
-      "properties": {
-        "prop1": {
-          "this": "that"
-        },
-        "prop0": "value0"
-      }
-    }
-  ]
+  "type":"Feature",
+  "geometry":
+  {
+    "type":"MultiPoint",
+    "coordinates":[[16.644263333333,49.211556666667],
+                   [16.650676666667,49.22278],
+                   [16.663155,49.225448333333]
+                  ]
+  },
+  "properties":
+  {
+    "prop0":"value0"
+  }
 }
